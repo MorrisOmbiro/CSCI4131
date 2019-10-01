@@ -1,0 +1,47 @@
+h1 {
+    font-family: sans-serif;
+    color: lightslategrey;
+    font-size: 80px;
+}
+
+.foot {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: dodgerblue;  
+}
+.footer_config {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    height: 20%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategrey;
+}
+.ul_foot {
+    list-style: none;
+}
+
+.half1 .ul_foot li {
+    outline-color: aqua; 
+    font-size: 40px;
+}
+.half2 .ul_foot li {
+    outline-color: aqua; 
+    font-size: 40px;
+}
+.half3 .ul_foot li {
+    outline-color: aqua; 
+    font-size: 40px;
+}
+.foot_a {
+    color: darkgray;
+    text-decoration: none;
+}
+.foot_a:hover {
+    color: dimgray;
+}
+.foot_a:visited {
+    color: black;
+}
