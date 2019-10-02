@@ -2,12 +2,18 @@
   padding: 20px;
   margin-top: -20px;
   margin-right: -20px;
+  margin-left: -20px;
   text-align: center;
   background: #c9c;
   color: white;
   font-size: 10px;
+  width: 100%;
+  position: fixed; 
+  padding-bottom: 0px;
 }
-
+.top {
+    padding-top: 50px;
+}
 .row {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -23,7 +29,9 @@
   font-size: 20px;
   border: none;
 }
-
+p {
+    font-family: Garamond; 
+}
 .dropdown {
   position: relative;
   margin: auto;
